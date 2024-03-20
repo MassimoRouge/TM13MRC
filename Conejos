@@ -1,0 +1,18 @@
+//MaximilianoRodriguezCordero//itm13
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int numeroConejos = 0;
+	double alimentoTotal = 0;
+
+	cout << "ingrese el numero de conejos";
+	cin >> numeroConejos;
+
+	alimentoTotal = numeroConejos * 50;
+
+	cout << "alimento necasario para" << numeroConejos << "conejos es de" << alimentoTotal << "gramos" << endl; 
+
+	return 0;
+}
